@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-   int num[]= {12,9,37,86,2,17,5};
-    int i,j,t;
+   int num[]= {7,15,78,4,19,45,99};
+    int i,j,n;
 
     cout<<"Array before Bubble Sort"<<endl;
     for(i=0; i<7; i++)
@@ -19,9 +19,9 @@ int main()
         {
             if(num[j]>num[j+1])
             {
-                t=num[j];
+                n=num[j];
                 num[j]=num[j+1];
-                num[j+1]=t;
+                num[j+1]=n;
             }
         }
     }
