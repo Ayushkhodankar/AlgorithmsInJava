@@ -7,7 +7,7 @@ int main()
    int num[]= {7,15,78,4,19,45,99};
     int i,j,n;
     cout<<"Array before Bubble Sort"<<endl;
-    
+
     for(i=0; i<7; i++)
     {
         cout<<num[i]<<" ";
