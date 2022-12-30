@@ -30,7 +30,6 @@ int main()
             num[n]=t;
         }
     }
-
     cout<<"\n\nArray after Selection Sort : \n";
     for(i=0; i<7; i++)
     {
