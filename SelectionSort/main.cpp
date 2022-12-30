@@ -7,7 +7,7 @@ int main()
     int num[]= {4,5,8,78,12,41,63};
     int i,j,t,n;
 
-    cout<<"Array before Selection Sort"<<endl;
+    cout<<"Array before Selection Sort : "<<endl;
     for(i=0; i<7; i++)
     {
         cout<<num[i]<<" ";
@@ -31,7 +31,7 @@ int main()
         }
     }
 
-    cout<<"\n\nArray after Selection Sort\n";
+    cout<<"\n\nArray after Selection Sort : \n";
     for(i=0; i<7; i++)
     {
         cout<<num[i]<<" ";
