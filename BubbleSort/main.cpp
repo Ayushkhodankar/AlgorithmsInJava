@@ -23,7 +23,7 @@ int main()
                 num[j+1]=n;
             }
         }
-    }
+    } 
     cout<<"\n\nArray after Bubble Sort\n";
     for(i=0; i<7; i++)
     {
