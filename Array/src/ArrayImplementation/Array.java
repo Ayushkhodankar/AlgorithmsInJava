@@ -1,11 +1,12 @@
+package ArrayImplementation;
 
 public class Array {
 
 	public void printArray(int[] arr) {
 		 int n= arr.length;
 		 for(int i=0; i<n; i++) {
-			 System.out.println(arr[i]+" ");
-		}System.out.println();
+			 System.out.print(arr[i]+" ");
+		}
 	}
 	
 	public void createArray() {
