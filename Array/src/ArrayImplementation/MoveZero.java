@@ -33,7 +33,7 @@ public class MoveZero {
 	
 	
 	public static void main(String[] args) {
-		Array array = new Array();
-		array.createArray();
+		MoveZero moveZero = new MoveZero();
+		moveZero.createArray();
 	}
 }
