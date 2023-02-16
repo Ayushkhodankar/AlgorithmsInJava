@@ -1,4 +1,4 @@
-package ArrayImplementation;
+package arrayImplementation;
 
 public class ResizeArray {
 
