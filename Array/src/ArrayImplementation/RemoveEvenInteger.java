@@ -1,6 +1,6 @@
 package ArrayImplementation;
 
-import java.util.Iterator;
+
 
 public class RemoveEvenInteger {
 
