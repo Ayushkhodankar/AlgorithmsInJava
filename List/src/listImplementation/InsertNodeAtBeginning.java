@@ -1,7 +1,7 @@
 package listImplementation;;
 
 public class InsertNodeAtBeginning {
-
+//creation of singly linked list
 private ListNode head;
 	
 	private static class ListNode {
@@ -14,17 +14,17 @@ private ListNode head;
 		this.next=null;
 		}	
 	}
-	
+	//printing of list in console
 	public void display() {
 		ListNode current=head;
 		while(current!=null) {
-			System.out.print(current.data+" ");
+			System.out.print(current.data+" --> ");
 			current=current.next;
 		}
 		System.out.println("null");
 		
 	}
-	
+	//new node insertion at beginning
 	public void insertNode(int value) {
 		ListNode listNode=new ListNode(value);
 		listNode.next=head;
