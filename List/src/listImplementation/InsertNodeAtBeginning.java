@@ -1,4 +1,4 @@
-package listImplementation;;
+package listImplementation;
 
 public class InsertNodeAtBeginning {
 //creation of singly linked list
