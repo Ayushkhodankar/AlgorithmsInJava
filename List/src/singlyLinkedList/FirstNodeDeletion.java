@@ -1,4 +1,4 @@
-package listImplementation;
+package singlyLinkedList;
 
 
 public class FirstNodeDeletion {
