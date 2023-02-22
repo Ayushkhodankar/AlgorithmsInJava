@@ -1,5 +1,6 @@
 package listImplementation;
 
+
 public class InsertNodeAtBeginning {
 //creation of singly linked list
 private ListNode head;
@@ -47,5 +48,6 @@ private ListNode head;
 	insertNodeAtBeginning.insertNode(555);
 	insertNodeAtBeginning.insertNode(5);
 	insertNodeAtBeginning.display();
+	
 	}
 }
