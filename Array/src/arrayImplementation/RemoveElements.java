@@ -11,7 +11,7 @@ public class RemoveElements {
 	public void createArray() {
 		int[] demoArray= {0,1,2,2,3,0,4,2};
 		printArray(demoArray);
-		System.out.println(removeElement(demoArray, 2));
+		System.out.println(removeElement(demoArray, 5));
 		
 	}
 	
